@@ -5,7 +5,7 @@
                 <!-- c-contact-list-item-bubbling emits a bubbling event so a single listener on a containing element works -->
                 <lightning-layout-item
                     class="wide"
-                    oncontactselect={handleContactSelect}
+                    oncontactselect={handleContactSelect} 
                 >
                     <template for:each={contacts.data} for:item="contact">
                         <c-contact-list-item-bubbling
